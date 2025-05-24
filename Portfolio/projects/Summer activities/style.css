@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fbff7d;
+    background: linear-gradient(180deg, rgba(251, 255, 125, 1) 0%, rgba(255, 176, 97, 1) 50%, rgba(252, 126, 126, 1) 100%);
+    color: #444;
+
+    h1{
+        margin-top: 70px;
+    }
+}
+.footer{
+    width: 100%;
+    height: 20vh;
+    background: #c9c9c9;
+    background: linear-gradient(0deg,rgba(201, 201, 201, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 75%, rgba(201, 201, 201, 1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 80px;
+
+    i{
+         transition: 0.5s;
+         color: #444;
+         font-size: 60px;
+    }
+
+    i:hover{
+        color: #777;
+        font-size: 70px;
+   }
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #444;
+
+    a{
+        color: #444;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 20px;
+    }
+
+    a:hover{
+        color: #777;
+        text-decoration: underline;
+        font-size: 25px;
+
+        i{
+            color: #777;
+        }
+    }
+
+
+
+    
+}
+.line{
+    width: 100%;
+    height: 10px;
+    background: #ffffff;
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 27%, rgba(201, 201, 201, 1) 100%);
+}
+.Input{
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    input{
+        height: 5vh;
+        width: 20%;
+        font-size: large;
+        transition: 0.5s;
+        border-start-start-radius: 5px;
+        border-end-start-radius: 5px;
+        border: 2px solid #444;
+        color: #444;
+    }
+
+    button{
+        height: 5vh;
+        width: 10%;
+        border: none;
+        background-color: #444;
+        color: white;
+        border-start-end-radius: 5px;
+        border-end-end-radius: 5px;
+        font-size: 85%;
+        transition: 0.7s;
+    }
+
+    button:hover{
+        color: rgb(136, 136, 136);
+        font-size: 100%;
+    }
+
+    input:focus{
+        width: 40%;
+    }
+}
+.placeContainer{
+    width: 95%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.imgContainer{
+    width: 400px;
+    height: 280px;
+    background-color: #999;
+      background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 0.5s;
+}
+#place1{
+    background-image: url('https://karpatium.com.ua/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaHNPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--de4f527501db3d657afdc0afa8a42c362f625c1f/%D0%B4%D0%BE%D0%BC%D0%B0%D0%B6%D0%B8%D1%80%20%D0%BF%D1%80%D0%B8%D1%82%D1%83%D0%BB%D0%BE%D0%BA.jpeg');
+}
+
+#place2{
+    background-image: url(https://kapitel.lviv.ua/wp-content/uploads/2024/03/dc2d6bba-9f5f-4e8d-b0e3-e4ca7b437763.jpg);
+}
+
+#place3{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/95/%D0%9B%D1%8C%D0%BE%D0%B4%D0%BE%D0%B2%D0%B0_%D0%B0%D1%80%D0%B5%D0%BD%D0%B0.jpg);
+}
+
+#place4{
+    background-image: url(https://museumlviv.com/wp-content/uploads/2022/12/mnl-gn-10.jpg);
+}
+
+#place5{
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipO8UnbBVnHG9UvLjTMruAzp4Vx62BtuCWXoRw1G=s680-w680-h510-rw);
+}
+
+.textContainer{
+    width: 500px;
+    transition: 0.5s;
+
+}
+.textContainer a{
+    background-color: orange;
+    color: #fff;
+    position: relative;
+    top: 50px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.textContainer a:hover{
+    background-color: rgb(192, 125, 0);
+
+}
+.infoContainer{
+    width: 300px;
+    min-height: 300px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    transition: 0.5s;
+}
+.green{
+    color: rgb(81, 233, 81);
+    font-weight: 900;
+}
+.infoContainer iframe{
+    width: 300px;
+    height: 200px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.priceContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+.placeItem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1180px) {
+    .placeItem{
+        flex-direction: column; 
+        padding-top: 10px;
+    }
+
+    .imgContainer{
+        border-radius: 0;
+    }
+
+    .textContainer{
+        margin-top: 10px;
+        text-align: baseline;
+    }
+
+    .priceContainer{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .imgContainer{
+        width: 200px;
+        width: 100px;
+    }
+
+    .textContainer{
+        width: 300px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .priceContainer{
+        position: relative;
+        top: -30px;
+    }
+
+    .Input button{
+        font-size: 50%;
+    }
+
+    .Input button:hover{
+        font-size: 60%;
+    }
+}
+
+@keyframes spin{
+    0%{
+        rotate: 0;
+    }
+
+    25%{
+        rotate: -30deg;
+    }
+
+    50%{
+        rotate: 30deg;
+    }
+
+    100%{
+        rotate: 0;
+    }
+}
